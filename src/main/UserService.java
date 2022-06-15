@@ -18,7 +18,7 @@ public class UserService {
         System.out.println("Adding user "+user);
 
 
-        this.publisher.publishEvent(new UserEvent("User Added"));
+        ths.publisher.publishEvent(new UserEvent("User Added"));
 
         System.out.println("Method ends");
     }
